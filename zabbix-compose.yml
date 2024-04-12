@@ -77,6 +77,7 @@ services:
     depends_on:
       - mysql
       - zabbix-server
+      
   zabbix-agent:
     container_name: zabbix-agent
     image: zabbix/zabbix-agent2:alpine-5.0.1
